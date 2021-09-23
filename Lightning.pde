@@ -40,7 +40,7 @@ void draw()
   fill(0); //black eyes
   ellipse(463 + yodaXShift, 208 + yodaYShift, 2, 2);
   ellipse(473 + yodaXShift, 208 + yodaYShift, 2, 2);
-  fill(0, 256, 0 + blueFlicker); //green blade
+  fill(0, 255, 0 + blueFlicker); //green blade
   quad(440 + yodaXShift, 185 + yodaYShift, 443 + yodaXShift, 184 + yodaYShift, 452 + yodaXShift,233 + yodaYShift, 449 + yodaXShift, 234 + yodaYShift);
   fill(160, 160, 160 + blueFlicker); //silver handle
   quad(449 + yodaXShift, 233 + yodaYShift, 452 + yodaXShift, 232 + yodaYShift, 454 + yodaXShift, 240 + yodaYShift, 451 + yodaXShift, 241 + yodaYShift);
