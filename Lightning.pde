@@ -12,7 +12,7 @@ int blueFlicker;
 void setup()
 {
   size(500,300);
-  background(0,40,50);
+  background(0,30,50);
   strokeWeight(1);
   
 }
@@ -54,7 +54,7 @@ void draw()
   green = (int)(Math.random()*56+200);
   blue = 255;
   stroke(red,green,blue);
-  fill(0,0,40,5);
+  fill(0,30,50,5);
   rect(-50,-50,550,550);
   if (mouseButton == LEFT) {
     Lightning(startX, startY, endX, endY);
