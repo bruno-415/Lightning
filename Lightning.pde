@@ -52,7 +52,7 @@ void draw()
   stroke(red,green,blue);
   fill(0,0,40,5);
   rect(-50,-50,550,550);
-  if (mouseButton == LEFT) {
+  if (mouseButton == LEFT && mouseButton != 0) {
     Lightning(startX, startY, endX, endY);
     blueFlicker = (int)(Math.random()*100);
   }
