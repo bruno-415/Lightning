@@ -18,6 +18,10 @@ void setup()
 }
 void draw()
 {
+  //floor
+  stroke(0, 0, 20);
+  line(0,220,500,220);
+  
   //darth sidious
   noStroke();
   fill(0, 0, 0 + blueFlicker/3); //black cloak
@@ -56,8 +60,6 @@ void draw()
     Lightning(startX, startY, endX, endY);
     blueFlicker = (int)(Math.random()*100);
   }
-  else
-    return;
 }
 /*void mousePressed()
 {
